@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure File Downloader</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="landscape-bg">
+        <div class="mountains"></div>
+        <div class="stars"></div>
+        <div class="moon"></div>
+    </div>
+    
+    <div class="container">
+        <div class="download-card">
+            <h1>Secure File Downloader</h1>
+            <div class="file-icon">📁</div>
+            
+            <div class="progress-section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">Initializing...</div>
+            </div>
+            
+            <div class="file-details">
+                <div class="detail-item">
+                    <span class="label">File Hash:</span>
+                    <span class="value" id="fileHash">Calculating...</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Virus Scan:</span>
+                    <span class="value" id="virusScan">Scanning...</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Status:</span>
+                    <span class="value" id="status">Preparing download...</span>
+                </div>
+            </div>
+            
+            <div class="security-badge">
+                <span class="shield">🛡️</span>
+                <span>Secured by VirusTotal</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
